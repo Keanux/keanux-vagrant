@@ -1,0 +1,3 @@
+[submodule "keanux-personal"]
+	path = keanux-personal
+	url = https://github.com/Keanux/keanux-personal.git
