@@ -5,8 +5,8 @@
 Vagrant.configure("2") do |config|
   config.vm.hostname = "keanux.vm"
 
-  config.vm.box = "trusty64"
-  config.vm.box_url = "http://files.vagrantup.com/trusty64.box"
+  config.vm.box = "ubuntu/trusty64"
+  config.vm.box_url = "ubuntu/trusty64"
   config.vm.provision :shell, path: "tools/vagrant.sh"
 
   config.vm.synced_folder "./keanux-personal", "/home/vagrant/keanux", create: true
