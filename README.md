@@ -1,6 +1,6 @@
 # Keanux-Vagrant
 
-使用 vagrant 在本機建立模擬實際部署的 keanux-personal 環境！
+使用 vagrant 在本機建立模擬實際部署的 [Keanux-Personal](https://github.com/Keanux/keanux-personal/) 環境！
 
 ## Why use?
 
