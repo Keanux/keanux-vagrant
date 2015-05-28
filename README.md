@@ -1,4 +1,4 @@
-# keanux-vagrant
+# Keanux-Vagrant
 
 使用 vagrant 在本機建立模擬實際部署的 keanux 環境！
 
@@ -7,7 +7,6 @@
 1. 還本機一個乾淨
 2. 相對於 virtualbox 來說，完全 command line 操作
 3. 假如環境被玩壞，可以直接快速重新建立
-4. ......
 
 ## Mac setup
 
@@ -50,3 +49,7 @@ vagrant destroy
 進入 VM 之後，可以參考 [setup.md](https://github.com/Keanux/keanux-personal/blob/master/docs/setup.md#修改設定並啟動網站-1) 來啟動環境！
 
 啟動之後可以在本機造訪 http://192.168.33.20:8080 來使用。
+
+# Copyright & License
+
+Copyright (c) 2015 Keanux - Released under the [MIT license](LICENSE).
