@@ -16,5 +16,5 @@ sudo apt-get install -y nodejs
 
 npm install -g supervisor
 
-cd /home/vagrant/keanux
+cd /home/vagrant/keanux-personal
 npm install
