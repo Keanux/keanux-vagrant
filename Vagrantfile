@@ -9,7 +9,7 @@ Vagrant.configure("2") do |config|
   config.vm.box_url = "ubuntu/trusty64"
   config.vm.provision :shell, path: "tools/vagrant.sh"
 
-  config.vm.synced_folder "./keanux-personal", "/home/vagrant/keanux", create: true
+  config.vm.synced_folder "./keanux-personal", "/home/vagrant/keanux-personal", create: true
 
   config.vm.network :private_network, ip: "192.168.33.20"
   config.vm.network :forwarded_port, host:8080, guest:8080
