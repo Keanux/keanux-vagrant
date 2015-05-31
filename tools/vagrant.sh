@@ -14,7 +14,11 @@ apt-get -y install mysql-server
 
 sudo apt-get install -y nodejs
 
+cd /home/vagrant/keanux-personal
+
+# update commit
+git pull origin master
+
 npm install -g supervisor
 
-cd /home/vagrant/keanux-personal
 npm install
