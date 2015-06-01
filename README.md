@@ -50,6 +50,25 @@ vagrant destroy
 
 啟動之後可以在本機造訪 http://192.168.33.20:8080 來使用。
 
+## 使用自己 fork 的 keanux-personal 來開發
+
+```
+# 1. fork this project
+
+# 2. clone project
+git clone --recursive <url>
+
+# 3. 修改 .gitmodules, 改成自己 fork 的 keanux-personal url
+
+# 4. sync submodule
+git submodule sync
+
+# 5. pull
+cd keanux-personal
+git pull origin master
+git checkout FETCH_HEAD
+```
+
 # Copyright & License
 
 Copyright (c) 2015 Keanux - Released under the [MIT license](LICENSE).
