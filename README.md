@@ -35,8 +35,6 @@ git clone git@github.com:Keanux/keanux-vagrant.git --recursive
 
 ## 開始使用
 
-在這之前，你可以在 tools/vagrant.sh 中設定 mysql 的 root 密碼(MYSQL_PASSWORD)，預設為 "password"
-
 ```
 # 設置 vm 並開啟
 vagrant up
